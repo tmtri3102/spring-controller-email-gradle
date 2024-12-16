@@ -14,8 +14,8 @@ public class EmailController {
      private static Pattern pattern;
      public EmailController() {
          pattern = Pattern.compile(EMAIL_REGEX);
-
      }
+
      @GetMapping("/")
     public String home(){
          return "index";
